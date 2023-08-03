@@ -350,3 +350,17 @@ right: 5%;
 .plan .list__item {
     margin-bottom: 2rem;
 }
+
+/* Media */
+
+.media {
+    display: flex;
+}
+
+.media__title {
+    margin-top: 0;
+}
+
+.media__body {
+    margin: 0 2rem;
+}
