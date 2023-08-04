@@ -247,9 +247,7 @@ height: 40px;
 }
 
 @media screen and (min-width: 1024px) {
-    .input {
-        font-size: 1.5rem;
-    }
+    .input { font-size: 1.5rem; }
 }
 
 .input-group {
@@ -363,4 +361,8 @@ right: 5%;
 
 .media__body {
     margin: 0 2rem;
+}
+
+.media__image {
+    margin-top: 1rem;
 }
