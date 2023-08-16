@@ -238,6 +238,10 @@ a {
   color: #fff;
 }
 
+.btn--stretched {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
 .btn--block {
   width: 100%;
   display: inline-block;
@@ -503,4 +507,23 @@ a {
 .callout .btn {
   justify-self: center;
   align-self: center;
+}
+
+.callout__content {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .callout .grid--1x2 {
+    grid-template-columns: 1fr auto;
+  }
+
+  .callout__content {
+    text-align: left;
+  }
+}
+
+.callout .btn {
+  justify-self: start;
+  margin: 0 2rem;
 }
