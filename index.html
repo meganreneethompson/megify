@@ -12,52 +12,32 @@
     <title>Megify</title>
   </head>
   <body>
-    <div class="collapsible collapsible--expanded">
-      <header class="collapsible__header">
-        <h2 class="collapsible__heading">Item 1</h2>
-        <svg class="icon icon--white collapsible__chevron">
-          <svg
-            id="Layer_1"
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 51 51"
-          >
-            <defs>
-              <style>
-                .cls-1 {
-                  fill: #393939;
-                }
-                .cls-2 {
-                  fill: #fff;
-                }
-              </style>
-            </defs>
-            <circle class="cls-1" cx="25.5" cy="25.5" r="25.5" />
-            <rect
-              class="cls-2"
-              x="24.4"
-              y="27.9"
-              width="1.6"
-              height="15.24"
-              rx="0.8"
-              transform="matrix(0.78, -0.63, 0.63, 0.78, -21.26, 15.39)"
-            />
-            <rect
-              class="cls-2"
-              x="33.3"
-              y="27.9"
-              width="1.6"
-              height="15.24"
-              rx="0.8"
-              transform="translate(24 -21.9) rotate(37.3)"
-            />
-          </svg>
-        </svg>
-      </header>
-      <div class="collapsible__content">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, illo.
+    <section class="block container">
+      <block class="block__header">
+        <h2 class="block__heading">Heading hi</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi,
+          asperiores!
+        </p>
+      </block>
+      <div style="width: 30%; padding: 4rem">
+        <div class="card card__secondary">
+          <header class="card__header">Card Title</header>
+          <div class="card__body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+    <section class="block block--dark block--skewed-right">
+      <div class="container">
+        <h2 class="block__heading">Heading hi</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi,
+          asperiores!
+        </p>
+      </div>
+    </section>
     <script src="js/main.js"></script>
   </body>
 </html>
