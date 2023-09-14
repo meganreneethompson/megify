@@ -202,6 +202,13 @@ a {
   white-space: nowrap;
 }
 
+.btn .icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+
 .btn--primary {
   background: var(--color-primary);
   color: #fff;
@@ -283,7 +290,7 @@ a {
 .input-group .input {
   border: 0;
   flex-grow: 1;
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 2rem;
 }
 
 .input-group .btn {
@@ -679,7 +686,7 @@ a {
 
 .hero__image {
   width: 100%;
-  }
+}
 
 @media screen and (min-width: 768px) {
   .hero {
@@ -691,3 +698,5 @@ a {
     align-self: center;
   }
 }
+
+/* Domain Block*/
