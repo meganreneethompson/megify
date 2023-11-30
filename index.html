@@ -9,7 +9,16 @@
     />
     <link rel="stylesheet" href="CSS/normalize.css" />
     <link rel="stylesheet" href="CSS/style.css" />
-    <title>Megify</title>
+    <meta
+      name="description"
+      content="Deploy your website in less than 60 seconds."
+    />
+    <meta property="og:title" content="Megify..." />
+    <meta property="og:description" content="Megify..." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://" />
+    <meta property="og:url" content="https://megified.com" />
+    <title>Megify- Go Online for Just $9</title>
   </head>
   <body>
     <header>
@@ -345,10 +354,22 @@
         </div>
       </div>
     </section>
+    <div class="callout callout--primary">
+      <div class="grid grid--1x2">
+        <div class="callout__content">
+          <h2 class="callout__heading">Ready to Get Started</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            cupiditate quod voluptate minus dolores perferendis.
+          </p>
+        </div>
+        <a href="#" class="btn btn--secondary btn--stretched">Get Started</a>
+      </div>
+    </div>
     <footer class="block block--dark footer">
       <div class="container grid footer__sections">
         <section class="collapsible collapsible--expanded footer__sections">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Products</h2>
             <svg class="icon icon--white collapsible__chevron">
               <svg
@@ -388,7 +409,7 @@
                 />
               </svg>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content footer__sections">
             <ul class="list">
               <li class="list__item">Website Hosting</li>
@@ -398,7 +419,7 @@
           </div>
         </section>
         <section class="collapsible">
-          <header class="collapsible__header footer__sections">
+          <div class="collapsible__header footer__sections">
             <h2 class="collapsible__heading footer__heading">Company</h2>
             <svg class="icon icon--white collapsible__chevron">
               <svg
@@ -438,7 +459,7 @@
                 />
               </svg>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li class="list__item">About</li>
@@ -448,7 +469,7 @@
           </div>
         </section>
         <section class="collapsible">
-          <header class="collapsible__header footer__sections">
+          <div class="collapsible__header footer__sections">
             <h2 class="collapsible__heading footer__heading">Support</h2>
             <svg class="icon icon--white collapsible__chevron">
               <svg
@@ -488,7 +509,7 @@
                 />
               </svg>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li class="list__item">Contact</li>
@@ -497,10 +518,10 @@
             </ul>
           </div>
         </section>
-        <section class="footer__brand">
+        <div class="footer__brand">
           <img src="images/logo.svg" alt="" />
           <p class="footer__copyright">Copyright Learning with Mosh 2023</p>
-        </section>
+        </div>
       </div>
     </footer>
     <script src="js/main.js"></script>
