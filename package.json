@@ -11,6 +11,9 @@
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
   },
+  "optionalDependencies": {
+    "fsevents": "^1.2.13"
+  },
   "dependencies": {
     "abab": "^2.0.6",
     "acorn": "^7.4.1",
@@ -201,7 +204,6 @@
     "fragment-cache": "^0.2.1",
     "fresh": "^0.5.2",
     "fs.realpath": "^1.0.0",
-    "fsevents": "^1.2.13",
     "function-bind": "^1.1.2",
     "function.prototype.name": "^1.1.6",
     "functions-have-names": "^1.2.3",
